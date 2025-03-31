@@ -37,11 +37,41 @@ footer {
 
 
 /* body要素にスタイルを適用 */
-
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
 /* header要素にスタイルを適用 */
-
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 /* ul要素にスタイルを適用 */
-
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 /* div要素にスタイルを適用 */
-
+div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
 /* main要素にスタイルを適用 */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
